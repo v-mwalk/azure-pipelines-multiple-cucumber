@@ -32,9 +32,9 @@ steps:
   displayName: 'TFX: Package Extension'
   inputs:
     rootFolder: .
-    publisherId: MaciejMaciejewski
-    extensionId: 'azure-pipelines-cucumber'
-    extensionName: 'Cucumber HTML Report'
+    publisherId: TeamControlium
+    extensionId: 'azure-pipelines-multiple-cucumber'
+    extensionName: 'Cucumber Multiple HTML Report'
     extensionVisibility: public
     extensionPricing: free
   condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'master'))
@@ -43,10 +43,10 @@ steps:
   displayName: 'TFX: Package Extension Dev'
   inputs:
     rootFolder: .
-    publisherId: MaciejMaciejewski
-    extensionId: 'azure-pipelines-cucumber'
+    publisherId: TeamControlium
+    extensionId: 'azure-pipelines-multiple-cucumber'
     extensionTag: dev
-    extensionName: 'Cucumber HTML Report Dev'
+    extensionName: 'Cucumber Multiple HTML Report Dev'
     extensionVersion: '1.0.$(Build.BuildId)'
     updateTasksVersion: true
     extensionVisibility: private
@@ -58,10 +58,10 @@ steps:
   inputs:
     connectedServiceName: Marketplace
     rootFolder: .
-    publisherId: MaciejMaciejewski
-    extensionId: 'azure-pipelines-cucumber'
+    publisherId: TeamControlium
+    extensionId: 'azure-pipelines-multiple-cucumber'
     extensionTag: dev
-    extensionName: 'Cucumber HTML Report Dev'
+    extensionName: 'Cucumber Multiple HTML Report Dev'
     extensionVersion: '1.0.$(Build.BuildId)'
     extensionVisibility: private
     extensionPricing: free

@@ -1,11 +1,13 @@
 [![Donate](https://img.shields.io/static/v1?logo=paypal&label=PayPal&message=Donate&color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZH953HFWKBJFA)
 [![Build Status](https://dev.azure.com/maciejmaciejewski-dev/extensions/_apis/build/status/maciejmaciejewski.azure-pipelines-cucumber?branchName=master)](https://dev.azure.com/maciejmaciejewski-dev/extensions/_build/latest?definitionId=15&branchName=master)
 
-# Azure Pipelines Cucumber Reporter
+# Azure Pipelines Multiple Cucumber Reporter
 
 Azure DevOps extension that provides a task for publishing Cucumber report in a HTML format and embeds it into a Build and Release pages.
 
 The extension is and will remain free of charge, however if you would like to support me please consider donating by using the PayPal button above.
+
+This was a fork from the original by Maciej Maciejewski with very little done to change underlying report generator engine.  So full kudos to Maciej
 
 ## Configuration
 
@@ -58,7 +60,7 @@ steps:
 
 ## Additional notes
 
-For generating HTML report task uses [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter).
+For generating HTML report task uses [multiple-cucumber-html-reporter](https://www.npmjs.com/package/multiple-cucumber-html-reporter).
 Because of that it is required to have NodeJS installed on AzureDevOps Agent machine. In order to do it, simply add below snippet to your pipeline.
 
 ```YAML

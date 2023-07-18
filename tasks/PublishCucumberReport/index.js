@@ -5,7 +5,7 @@ const globby = require('globby')
 const hat = require('hat')
 let consolidatedPath
 
-function getDefaultExecOptions () {
+function getDefaultExecOptions() {
   let execOptions = {}
   execOptions.cwd = join(__dirname, './reporter')
   execOptions.failOnStdErr = false
@@ -14,9 +14,9 @@ function getDefaultExecOptions () {
   return execOptions
 }
 
-function unifyCucumberReport (filesArray, hasMagic) {
+function unifyCucumberReport(filesArray, hasMagic) {
   if (hasMagic) {
-    consolidatedPath = `${process.env.SYSTEM_DEFAULTWORKINGDIRECTORY}/cucumber-html-reporter/${hat()}/consolidated`
+    consolidatedPath = `${process.env.SYSTEM_DEFAULTWORKINGDIRECTORY}/multiple-cucumber-html-reporter/${hat()}/consolidated`
     ensureDirSync(consolidatedPath)
     console.log('Wildcard path detected')
     console.log(`Merging report into ${consolidatedPath}`)

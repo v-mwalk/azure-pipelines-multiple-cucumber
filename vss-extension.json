@@ -2,15 +2,15 @@
     "manifestVersion": 1,
     "id": "azure-pipelines-cucumber",
     "name": "Cucumber Report",
-    "publisher": "MaciejMaciejewski",
-    "public": false,
+    "publisher": "TeamControlium",
+    "public": true,
     "author": "Maciej Maciejewski",
-    "version": "1.0.9",
-    "description": "Embed Cucumber HTML report in Azure Pipelines",
+    "version": "1.0.0",
+    "description": "Embed Multiple-Cucumber HTML Report in Azure Pipelines",
     "galleryFlags": [],
     "repository": {
       "type": "git",
-      "uri": "https://github.com/maciejmaciejewski/azure-pipelines-cucumber"
+      "uri": "https://github.com/v-mwalk/azure-pipelines-multiple-cucumber"
     },
     "targets": [
       {
@@ -95,7 +95,7 @@
           "name": "Cucumber",
           "uri": "tab.html",
           "registeredObjectId": "registerBuild",
-          "supportsTasks": ["83c082c0-5032-11ea-8fab-bbe0f0fcf287"],
+          "supportsTasks": ["83d083c0-5134-11aa-7fab-b1e0f0fcf287"],
           "dynamic": true
         },
         "includes": [

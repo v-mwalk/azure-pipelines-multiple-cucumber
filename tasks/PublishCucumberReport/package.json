@@ -1,6 +1,6 @@
 {
-  "name": "publish-cucumber-report",
-  "version": "1.0.9",
+  "name": "publish-multiple-cucumber-report",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "private": true,

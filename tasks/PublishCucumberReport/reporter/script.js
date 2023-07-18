@@ -1,4 +1,4 @@
-const { generate } = require('cucumber-html-reporter')
+const { generate } = require('multiple-cucumber-html-reporter')
 const rawMetadata = process.env.RAW_METADATA
 
 const reportOpts = {

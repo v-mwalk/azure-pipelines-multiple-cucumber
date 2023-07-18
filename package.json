@@ -1,6 +1,6 @@
 {
-  "name": "azure-pipelines-cucumber",
-  "version": "1.0.9",
+  "name": "azure-pipelines-multiple-cucumber",
+  "version": "1.0.0",
   "description": "Embed Protractor HTML result into release and build tabs",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maciejmaciejewski/azure-pipelines-cucumber.git"
+    "url": "git+https://github.com/v-mwalk/azure-pipelines-multiple-cucumber.git"
   },
   "private": true,
   "keywords": [
@@ -22,11 +22,12 @@
   ],
   "author": "Maciej Maciejewski <maciej.maciejewski@finastra.com>",
   "contributors": [
-    "selamanse <selamanse@scheinfrei.info>"
+    "selamanse <selamanse@scheinfrei.info>",
+    "Mat Walker <teamcontrolium@alexview.com>"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maciejmaciejewski/azure-pipelines-cucumber/issues"
+    "url": "https://github.com/v-mwalk/azure-pipelines-multiple-cucumber/issues"
   },
   "homepage": "maciejmaciejewski/azure-pipelines-cucumber",
   "dependencies": {

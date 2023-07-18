@@ -10,7 +10,7 @@ abstract class BaseReportTab extends Controls.BaseControl {
   protected readonly ATTACHMENT_TYPE: string = "cucumber.report";
   protected readonly ATTACHMENT_NAME: string = "cucumber_report.html"
   protected readonly SCREENSHOT_TYPE: string = "cucumber.screenshot"
-  protected readonly TASK_ID: string = '83c082c0-5032-11ea-8fab-bbe0f0fcf287'
+  protected readonly TASK_ID: string = '83d083c0-5134-11aa-7fab-b1e0f0fcf287'
 
   private isFirstReport;
 
@@ -188,7 +188,7 @@ class ReleaseReportTab extends BaseReportTab {
                 // TODO: Check if works on all browsers
                 console.log("task")
                 console.log(task.task)
-                if (task.task?.id === '83c082c0-5032-11ea-8fab-bbe0f0fcf287'){
+                if (task.task?.id === '83d083c0-5134-11aa-7fab-b1e0f0fcf287'){
                   
                   const attachments = await rmClient.getTaskAttachments(
                     vsoContext.project.id,
