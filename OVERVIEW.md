@@ -37,7 +37,7 @@ Once the file is saved it can be useda as an input to the Publish task.
 
 ```YAML
 steps:
-- task: PublishCucumberReport@1
+- task: PublishMultipleCucumberReport@1
   displayName: 'Publish Cucumber Report'
   inputs:
     jsonDir: ./results/cucumber

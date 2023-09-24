@@ -25,7 +25,7 @@ steps:
 - task: Npm@1
   displayName: 'NPM: Install Task Dependencies'
   inputs:
-    workingDir: tasks/PublishCucumberReport
+    workingDir: tasks/PublishMultipleCucumberReport
     verbose: false
 
 - task: PackageAzureDevOpsExtension@2

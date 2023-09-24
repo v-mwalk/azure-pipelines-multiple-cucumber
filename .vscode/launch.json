@@ -11,17 +11,17 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/tasks/PublishCucumberReport/index.js",
+      "program": "${workspaceFolder}/tasks/PublishMultipleCucumberReport/index.js",
       "outputCapture": "std",
       "env": {
-        "INPUT_JSONDIR": "${workspaceFolder}/tasks/PublishCucumberReport/inputs/jv",
-        "INPUT_OUTPUTPATH": "${workspaceFolder}/tasks/PublishCucumberReport/outputs",
+        "INPUT_JSONDIR": "${workspaceFolder}/tasks/PublishMultipleCucumberReport/inputs/jv",
+        "INPUT_OUTPUTPATH": "${workspaceFolder}/tasks/PublishMultipleCucumberReport/outputs",
         "INPUT_METADATA": "",
         "INPUT_THEME": "bootstrap",
         "INPUT_REPORTSUITEASSCENARIOS": true,
         "SYSTEM_DEFAULTWORKINGDIRECTORY": ""
       },
-      "cwd": "${workspaceFolder}/tasks/PublishCucumberReport"
+      "cwd": "${workspaceFolder}/tasks/PublishMultipleCucumberReport"
     }
   ]
 }
